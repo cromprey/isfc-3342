@@ -7,6 +7,7 @@ browers use different dimensions.*/
 body {
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url(../img/bg-tile.jpg); 	/* I don't understand what to do on the x-axis. */
 	background-color: #171717;
 	font-size: 16px;
 	line-height: 1.5em;
@@ -20,6 +21,7 @@ body {
 	margin-top: 20px;
 	border: 1px solid #CCC;
 }
+
 #header {
 }
 #header h1 a {
