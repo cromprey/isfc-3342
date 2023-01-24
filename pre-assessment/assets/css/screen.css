@@ -35,7 +35,8 @@ body {
 	display: block; /* read about inline and block one more time lol*/
 	width: 800px;
 	height: 140px;
-	background-image: url(../img/assessment-2.jpg);
+	background-image: url(../img/header-img.jpg);
+	background-size: 100%;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
