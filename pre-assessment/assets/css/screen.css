@@ -102,6 +102,17 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+
+#content a:hover{
+	background-color: lightgreen;
+}
+
+.img-right {
+	float: right;
+	border: 1pt double green;
+	margin: 10px 0px 20px;
+}
+
 #footer {
 	background-color: #000;
 	color: #FFF;
@@ -112,4 +123,8 @@ body {
 	line-height: 25px;
 	margin-right: 20px;
 	margin-left: 20px;
+}
+
+#footer a:hover{
+	color: lightgreen;
 }
