@@ -71,6 +71,7 @@ body {
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
+	background-color: red;
 }
 #content {
 	margin: 20px;
