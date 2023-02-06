@@ -1,0 +1,36 @@
+/* -------COLOR THEME FOR WEBSITE---------
+Brown: #73503C
+Light brown: #C48C60
+Robin light blue: #90C7DB
+Aqua light blue: #C5DCE0
+White: #FFFFFF
+Blue off white: #F1F8FE 
+*/
+
+/* -------------Box Sizing--------------- */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ------------Responsive Images----------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@font-face {
+    font-family: 'arlitaregular';
+    src: url('arlita-webfont.woff2') format('woff2'),
+         url('arlita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
