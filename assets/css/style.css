@@ -136,3 +136,9 @@ body{
   width: 20%;
   border-radius: 50%;
 }
+
+.row-about{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
