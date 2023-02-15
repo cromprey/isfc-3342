@@ -29,33 +29,54 @@ html {
   background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
 
   main{
-    background-color: red;
-    width: 960px;
+    background-color: lightgray;
+    width: 80vw;
     margin: 20px auto;
-    background-image: url(../img/grid.png);
-    border: 2px solid cornflowerblue;
+    /*background-image: url(../img/grid.png);*/
+    /*border: 2px solid cornflowerblue;*/
   }
   
   header.primary, footer.primary {
     background-color: yellow;
-    margin: 20px;
-    width: 916px;
-    padding: 20px;
+    /*margin: 20px;*/
+    margin: 2.09%;
+    /*width: 916px;*/
+    width: 95.42%;
+    /*padding: 20px;*/
+    padding: 2.18%;
     float: left;
   }
 
   #blog{
     background-color: lightgreen;
-    margin-left: 20px;
-    width: 526px;
+    /*margin-left: 20px;*/
+    margin-left: 2.09%;
+    /*width: 526px;*/
+    width: 54.79%;
     float: left;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 2.19%;
   }
 
   aside{
     background-color: lightskyblue;
     float: left;
-    width: 370px;
-    margin-left: 20px;
-    padding: 20px;
+    /*width: 370px;*/
+    width: 38.54%;
+    /*margin-left: 20px;*/
+    margin-left: 2.09%;
+    /*padding: 20px;*/
+    padding: 2.19%;
+  }
+
+  @media screen and (min-width:800px){
+    main{
+      width: 960px;
+    }
+  }
+
+  @media screen and (min-width:800px){
+    main{
+      width: 960px;
+    }
   }
