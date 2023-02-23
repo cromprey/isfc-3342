@@ -1,0 +1,78 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+/*Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* Start of "Micro clearfix" */
+
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+ content: "";
+ display: table;
+}
+.cf:after {
+ clear: both;
+}
+  
+/* End of "Micro clearfix" */
+
+main{
+    background-image: url(../img/grid.png);
+    background-size: 956px;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(12, 58px);
+    gap: 20px;
+    width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+  
+header.primary {
+    background-color: yellow;
+    grid-column: 1 /span 12;
+}
+
+#content{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(12, 58px);
+    gap: 20px;
+}
+
+#blog{
+    background-color: red;
+    grid-column: 1/8;
+}
+
+aside{
+    background-color: lightskyblue;
+    grid-column: 8 / 13;
+}
+
+footer.primary{
+    background-color: yellow;
+    grid-column: 1 /span 12;
+}
+
+
+@media screen and (min-width:800px){
+    main{
+      width: 960px;
+    }
+}
+
+@media screen and (min-width:800px){
+    main{
+      width: 960px;
+    }
+}
