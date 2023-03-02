@@ -12,14 +12,16 @@ body{
 /* ------ Fluid Images -------*/
 img{
   max-width:100%;
+  border-radius: 50%;
+  border: solid 3pt #F0F8FF;
 }
 
 /* ------ Utility Classes  -------*/
 .container{
   margin:0 auto;
-  background:rgba(0,0,0,.15);
   width:480px;
 }
+
 /* ------ Helper Classes -------*/
 .visuallyhidden {
   border: 0;
@@ -37,7 +39,7 @@ img{
 body{
   background:#F0F8FF;
   color:#222222;
-  line-height:1.6
+  line-height:1.6;
 } 
 a:link, a:visited{
   color:#222;
@@ -45,4 +47,7 @@ a:link, a:visited{
 
 main{
   padding: 1px 20px;
+  background-color: #36558F;
+  color: white;
+  line-height: 1.6;
 }
