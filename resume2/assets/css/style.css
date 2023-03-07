@@ -73,10 +73,10 @@ h1{
   display:block;
 }
 
-#about:checked ~ .tab #about-tab,
-#skills:checked ~ .tab #skills-tab,
-#experience:checked ~ .tab #experience-tab
-#education:checked ~ .tab #education-tab{
+#about:checked ~ .tabs #about-tab,
+#skills:checked ~ .tabs #skills-tab,
+#experience:checked ~ .tabs #experience-tab
+#education:checked ~ .tabs #education-tab{
   background:#fffffff6;
   color:#000;
   border-top: 3px solid #000;
