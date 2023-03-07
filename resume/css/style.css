@@ -50,4 +50,39 @@ main{
   background-color: #36558F;
   color: white;
   line-height: 1.6;
+  padding: 20px;
+}
+
+.container h1{
+  border: #F0F8FF 2pt solid;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.container h2{
+  text-align: center;
+}
+
+nav{
+  
+}
+
+
+
+@media screen and (min-width: 768px){
+  main.container {
+    max-width: 900px;
+    grid-template-columns: 36.5% auto;
+    grid-template-areas: 
+    "title title"
+    "about about"
+    "skills experience"
+    ". education"
+    ;
+
+
+  }
+
+
+
 }
