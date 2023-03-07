@@ -63,13 +63,13 @@ h1{
 }
 
 .radio{
-  display:none;
+  /*display:none;*/
 }
 
-#about:checked ~ .panel #about-panel,
-#skills:checked ~ .panel #skills-panel,
-#experience:checked ~ .panel #experience-panel,
-#education:checked ~ .panel #education-panel{
+#about:checked ~ .panels #about-panel,
+#skills:checked ~ .panels #skills-panel,
+#experience:checked ~ .panels #experience-panel,
+#education:checked ~ .panels #education-panel{
   display:block;
 }
 
