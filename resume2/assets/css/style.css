@@ -1,18 +1,24 @@
+/*------Migrated from Codepen ------*/
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
 body{
   background:#F0F8FF;
-  font-family: 'Arimo', sans-serif;
+  font-family: forma-djr-banner, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
+
 h2{
   color:#000;
   text-align:center;
   font-size:2em;
 }
+
 .wrapper{
   display:flex;
   flex-direction: column;
   align-items: center;
 }
+
 .tab{
   cursor: pointer;
   padding:10px 20px;
@@ -23,6 +29,7 @@ h2{
   border-radius:3px 3px 0px 0px;
   box-shadow: 0 0.5rem 0.8rem #00000080;
 }
+
 .panels{
   background:#fffffff6;
   box-shadow: 0 2rem 2rem #00000080;
@@ -33,9 +40,10 @@ h2{
   overflow:hidden;
   padding:20px;  
 }
+
 .panel{
   display:none;
-  animation: fadein .8s;
+  animation: fadein 1.1s;
 }
 
 @keyframes fadein {
@@ -46,19 +54,23 @@ h2{
         opacity:1;
     }
 }
+
 .panel-title{
   font-size:1.5em;
   font-weight:bold
 }
+
 .radio{
   display:none;
 }
+
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel,
 #four:checked ~ .panels #four-panel{
   display:block;
 }
+
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab,
@@ -66,4 +78,67 @@ h2{
   background:#fffffff6;
   color:#000;
   border-top: 3px solid #000;
+}
+
+
+/*============ Custom Edits ==============*/
+
+/* ------ Fluid Images -------*/
+
+img{
+  max-width:100%;
+}
+
+/*------- Global Styles -------*/
+
+main h2{
+  font-family: forma-djr-banner, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35pt;
+  font-variant: all-small-caps;
+  color: #83B1CF;
+  text-shadow: 1px .5px #000;
+}
+
+.headshot{
+  size: 80%;
+}
+
+p{
+  font-size: 13pt;
+}
+
+dl{
+  display: grid;
+  grid-template:repeat(8,50px) / 8em 1fr;
+}
+
+dt{
+  grid-column: 1;
+  font-weight: 400;
+  font-size: 16pt;
+  font-variant: all-small-caps;
+  padding: 10px 0;
+  border-bottom:1px solid #999;
+}
+
+dd{
+  margin:0;
+  grid-column: 2;
+  padding: 14px 0;
+  font-size: 13pt;
+  border-bottom:1px solid #999;
+}
+
+.related-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.related-links .svg-inline--fa{
+  font-size: 11pt;
+  padding-top:7px;
 }
