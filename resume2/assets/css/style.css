@@ -35,7 +35,7 @@ h2{
   box-shadow: 0 2rem 2rem #00000080;
   min-height:200px;
   width:100%;
-  max-width:500px;
+  max-width:600px;
   border-radius:3px;
   overflow:hidden;
   padding:20px;  
@@ -106,13 +106,13 @@ main h2{
   font-size: 25pt;
   text-align: center;
 }
+
 .headshot{
   display: block;
   margin: auto;
   height: 350px;
   width: 350px;
   border-radius: 20%;
-  margin: auto;
 }
 
 .intro{
@@ -124,7 +124,8 @@ main h2{
 
 dl{
   display: grid;
-  grid-template:repeat(8,50px) / 8em 1fr;
+  grid-template:repeat(7,50px) / 8em 1fr;
+  padding: 20px;
 }
 
 dt{
