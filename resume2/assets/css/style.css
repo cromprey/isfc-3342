@@ -7,7 +7,7 @@ body{
   font-weight: 100;
 }
 
-h2{
+main h2{
   color:#000;
   text-align:center;
   font-size:2em;
@@ -118,14 +118,13 @@ main h2{
 .intro{
   font-size: 13pt;
   text-indent: 10px;
-  padding: 20px 0;
-  border-bottom: 1pt solid #83B1CF;
+  padding: 20px 0 0 0;
 }
 
 dl{
   display: grid;
   grid-template:repeat(7,50px) / 8em 1fr;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 dt{
