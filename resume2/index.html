@@ -13,8 +13,6 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="stylesheet" href="assets/css/style.css">
-
-  <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 
 </head>
@@ -26,7 +24,7 @@
 </header>
 
 <main itemscope itemtype="http://schema.org/Person" class="container">
-    <h2>Caitlin Romprey Resume</h2>
+    <h2 id="header-primary">Caitlin Romprey Resume</h2>
     <div class="wrapper">
         <input class="radio" id="one" name="group" type="radio" checked>
         <input class="radio" id="two" name="group" type="radio">
@@ -72,20 +70,66 @@
                       </dd>
                   </dl>
                   <ul class="related-links">
-                      <li><a itemprop="url" rel="me" href="https://github.com/cromprey"><i class="fa-brands fa-github"></i>GitHub</a></li>
-                      <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/caitlin-romprey-036257235"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></li>
-                      <li><a itemprop="url" href="resume.pdf" download><i class="fa-regular fa-file-pdf"></i>PDF Resume</a></li>
+                      <li><a itemprop="url" rel="me" href="https://github.com/cromprey"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                      <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/caitlin-romprey-036257235"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+                      <li><a itemprop="url" href="resume.pdf" download><i class="fa-regular fa-file-pdf"></i> PDF Resume</a></li>
                   </ul>
               </div>
         <div class="panel" id="two-panel">
-          <div class="panel-title">Skills</div>
-            <ul>
-              <li class="skill">HTML</li>
-              <li class="skill">JavaScript</li>
-              <li class="skill">CSS</li>
-              <li class="skill">Design</li>
-              <li class="skill">Adobe Suites</li>
-           </ul>
+           <div class="panel-title">Skills - Intermediate</div>
+           <p class="intro">I would like to put my skills on an intermediate level. I will be humble and say that I don't know all things, but I am
+            confident enough to know that I am capable of learning and mastering these skills. I have only been doing this for about a year
+            and a half now, so of course there are things that I am and will be learning!
+           </p>
+          <div class="all-skills-wrapper">
+            <h2>HTML</h2>
+              <div class="skill-wrapper">
+                <div class="skill html">
+                  <span>75%</span>
+                </div>
+                <ul>
+                  <li>Knows most HTML tags and the usage of them.</li>
+                  <li>Can link external resource files. (CSS, JS)</li>
+                  <li>Some knowledge on how HTML will be read on accessible hardwares.</li>
+                  <li>Web development and coding.</li>
+                </ul>
+              </div>
+
+            <h2>Design</h2>
+              <div class="skill-wrapper">
+                <div class="skill design">
+                  <span>85%</span>
+                </div>
+                <ul>
+                  <li>Comfortable with Adobe Suites.</li>
+                  <li>Color theory.</li>
+                  <li>Typography.</li>
+                  <li>Basics of UX/UI.</li>
+                  <li>Content Creation.</li>
+                </ul>
+              </div>
+
+            <h2>CSS</h2>
+              <div class="skill-wrapper">
+                <div class="skill css">
+                  <span>70%</span>
+                </div>
+                <ul>
+                  <li>Understanding of flexbox and grid.</li>
+                  <li>Can solve technical CSS problems.</li>
+                  <li>Learning media queries.</li>
+                  <li>Element positioning.</li>
+                </ul>
+              </div>
+
+            <h2>JAVASCRIPT</h2>
+              <div class="skill-wrapper">
+                <div class="skill js">
+                  <span>60%</span>
+              </div>
+              <p>I love working</p>
+          </div>
+          </div>
           </div>
         <div class="panel" id="three-panel">
           <div class="panel-title">Experience</div>
@@ -133,18 +177,19 @@
                   </article>
               </div>
           <div class="panel" id="four-panel">
-          <div class="panel-title">Education</div>
-          <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-                      <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
-                      <span itemprop="name">University of Arkansas at Little Rock</span>
-                      <span itemprop="location" itemscope>Little Rock, AR, USA</span>
-                      <span>2005-2007</span>
-                  </article>
+            <div class="panel-title">Education</div>
+              <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
+                <span itemprop="name">University of Arkansas at Little Rock</span>
+                <span itemprop="location" itemscope>Little Rock, AR, USA</span>
+                <span>2005-2007</span>
+              </article>
+            </div>
+          </div>
         </div>
-        </div>
-      </div>
       
 </main>
+<script src="https://kit.fontawesome.com/3f8b5df21f.js" crossorigin="anonymous"></script>
 </body>
 
 

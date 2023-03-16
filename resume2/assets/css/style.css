@@ -118,7 +118,7 @@ img{
 .intro{
   font-size: 13pt;
   text-indent: 10px;
-  padding: 20px 0 0 0;
+  padding: 20px 5px 0 5px;
 }
 
 dl{
@@ -195,16 +195,21 @@ dd{
 */
 
 .all-skills-wrapper{
-  padding: 0 20px;
-  margin: 0 40px;
+  padding: 20px;
+  margin: 0 10px;
+  border: 1pt solid #000;
 }
 
 .skill-wrapper {
-  background:red;
-  padding: 10px;
-  max-width: 450px;
-  border-bottom: 1pt solid #000;
+  max-width: 500px;
   align-items: center;
+  padding: 0 0 15px 0;
+}
+
+.skill-wrapper p {
+  font-size: 12pt;
+  margin: 0;
+  padding: 5px;
 }
 
 .skill {
@@ -228,29 +233,29 @@ dd{
 
 .html {
   width:75%;
-  background: #4776E6;
-  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
-  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: #4586bf;
+  background: -webkit-linear-gradient(to left, #4586bf , #F0F8FF);
+  background: linear-gradient(to left, #4586bf , #F0F8FF);
 }
 
 .design{
   width:85%;
-  background: #4776E6;
-  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
-  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: #4586bf;
+  background: -webkit-linear-gradient(to left, #4586bf , #F0F8FF);
+  background: linear-gradient(to left, #4586bf , #F0F8FF);
 }
 
 .css {
-  width:75%;
-  background: #4776E6;
-  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
-  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+  width:70%;
+  background: #4586bf;
+  background: -webkit-linear-gradient(to left, #4586bf , #F0F8FF);
+  background: linear-gradient(to left, #4586bf , #F0F8FF);
 }
       
 .js {
   width:60%;
-  background: #4776E6;
-  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
-  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: #4586bf;
+  background: -webkit-linear-gradient(to left, #4586bf , #F0F8FF);
+  background: linear-gradient(to left, #4586bf , #F0F8FF);
 }
 
