@@ -91,7 +91,7 @@ img{
 
 /*------- Global Styles -------*/
 
-main h2{
+#header-primary{
   font-family: forma-djr-banner, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -177,3 +177,80 @@ dd{
   border-top: 3pt solid black;
   transition: .3s;
 }
+
+/*------- Panel Two CSS ---------*/
+
+#two-panel h2{
+  color: black;
+  font-size: 16pt;
+  text-align: left;
+  padding: 0;
+  margin: 8px;
+}
+
+/* removed cause codepen transfered weird to github
+#two-panel{
+  width: 60vw;
+}
+*/
+
+.all-skills-wrapper{
+  padding: 0 20px;
+  margin: 0 40px;
+}
+
+.skill-wrapper {
+  background:red;
+  padding: 10px;
+  max-width: 450px;
+  border-bottom: 1pt solid #000;
+  align-items: center;
+}
+
+.skill {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 0 0 5px black;
+  height: 24px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#two-panel span {
+  color: white;
+  float: right;
+  font-size: 15px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.html {
+  width:75%;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+}
+
+.design{
+  width:85%;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+}
+
+.css {
+  width:75%;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+}
+      
+.js {
+  width:60%;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to left, #4776E6 , #F0F8FF);
+  background: linear-gradient(to left, #4776E6 , #F0F8FF);
+}
+
