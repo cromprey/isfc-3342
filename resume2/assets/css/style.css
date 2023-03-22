@@ -117,7 +117,6 @@ img{
 
 .intro{
   font-size: 13pt;
-  text-indent: 10px;
   padding: 20px 5px 0 5px;
 }
 
@@ -259,3 +258,48 @@ dd{
   background: linear-gradient(to left, #4586bf , #F0F8FF);
 }
 
+/* ----------- Panel Three CSS --------------- */
+
+.job *[itemprop="jobTitle"], 
+.job *[itemprop="name"], 
+.job *[itemprop="url"], 
+.job *[itemprop="addressLocality"],
+.certificate *[itemprop="name"],
+.certificate *[itemprop="location"]
+{
+  display:block;
+}
+
+.currentJob *[itemprop="jobTitle"], 
+.currentJob *[itemprop="name"], 
+.currentJob *[itemprop="url"], 
+.currentJob *[itemprop="addressLocality"]
+{
+  display:block;
+}
+
+.currentJob {
+  border: 1pt solid #000000;
+  margin: 10px auto;
+  padding: 0 15px 15px 15px;
+}
+
+.cjdate {
+  color:red;
+}
+
+.job{
+  margin: 10px auto;
+  padding: 0 15px 10px 15px;
+}
+
+.job h3{
+  padding: 0 0 5px 0;
+  border-bottom: 1pt solid #000000;
+}
+
+/* ------------ Panel Four CSS ---------- */
+
+.certificate{
+  
+}
