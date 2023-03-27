@@ -337,14 +337,32 @@ main.container{
 /*---------- MEDIA QUERIES ------------*/
 
 /* Mobile View */
-@media screen and (min-width: 320px) and
+@media screen and (min-width: 200px) and
 (max-width: 768px){
-  .tab{
-    padding: 10px 15px;
-    font-size: 15px;
-    margin:0px 1px;
-    background: greenyellow;
+  dd{
+    margin:0;
+    grid-column: 2;
+    padding: 14px 0;
+    font-size: 11pt;
+    border-bottom:1px solid #999;
   }
+
+  .tab{
+    padding: 10px 8px;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .related-links .svg-inline--fa{
+    font-size: 6pt;
+    padding-top: 5px;
+  }
+
+  .related-links a{
+    font-size: 10pt;
+    padding: 5px;
+  }
+
 }
 
 /*Tablet and Desktop View */
