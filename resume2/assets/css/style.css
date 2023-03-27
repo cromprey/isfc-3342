@@ -302,38 +302,6 @@ dd{
 /* Don't really need any actually*/
 
 
-/*------ Defining Grid areas----------*/
-
-main.container{
-  display:grid;
-  grid-template-areas: 
-  "title"
-  "about"
-  "skills"
-  "experience"
-  "education";
-}
-
-.header-primary{
-  grid-area: title;
-}
-
-#one-panel{
-  grid-area: about;
-}
-
-#two-panel{
-  grid-area: skills;
-}
-
-#three-panel{
-  grid-area: experience;
-}
-
-#four-panel{
-  grid-area: education;
-}
-
 /*---------- MEDIA QUERIES ------------*/
 
 /* Mobile View */
@@ -343,7 +311,7 @@ main.container{
     margin:0;
     grid-column: 2;
     padding: 14px 0;
-    font-size: 11pt;
+    font-size: 12pt;
     border-bottom:1px solid #999;
   }
 
@@ -368,13 +336,39 @@ main.container{
 /*Tablet and Desktop View */
 @media screen and (min-width: 768px){
 
+  div.panels{
+    max-width: 800px;
+  }
+  
   .panel#one-panel{
-    grid-template-columns: 36.5% auto;
+    display: grid;
+    grid-template-columns: 400px 400px;
     grid-template-areas:
-    ""
-    ""
-    "";
-    background:red;
+    "title title"
+    "headshot information"
+    "headshot links"
+    "intro intro"
+    ;
+  }
+
+  #one-panel dl{
+    grid-area:information;
+  }
+
+  .panel-title{
+    grid-area: title;
+  }
+
+  .headshot{
+    grid-area: headshot;
+  }
+
+  .intro{
+    grid-area: intro;
+  }
+
+  .related-links{
+    grid-area: links;
   }
 
 
