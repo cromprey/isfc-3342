@@ -26,7 +26,7 @@ main h2{
   background:#000;
   display:inline-block;
   color:#fff;
-  border-radius:3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
   box-shadow: 0 0.5rem 0.8rem #00000080;
 }
 
@@ -299,7 +299,64 @@ dd{
 }
 
 /* ------------ Panel Four CSS ---------- */
+/* Don't really need any actually*/
 
-.certificate{
-  
+
+/*------ Defining Grid areas----------*/
+
+main.container{
+  display:grid;
+  grid-template-areas: 
+  "title"
+  "about"
+  "skills"
+  "experience"
+  "education";
+}
+
+.header-primary{
+  grid-area: title;
+}
+
+#one-panel{
+  grid-area: about;
+}
+
+#two-panel{
+  grid-area: skills;
+}
+
+#three-panel{
+  grid-area: experience;
+}
+
+#four-panel{
+  grid-area: education;
+}
+
+/*---------- MEDIA QUERIES ------------*/
+
+/* Mobile View */
+@media screen and (min-width: 320px) and
+(max-width: 768px){
+  .tab{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin:0px 1px;
+  }
+}
+
+/*Tablet and Desktop View */
+@media screen and (min-width: 768px){
+
+  .panel#one-panel{
+    grid-template-columns: 36.5% auto;
+    grid-template-areas:
+    ""
+    ""
+    "";
+    background:red;
+  }
+
+
 }
