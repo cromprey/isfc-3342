@@ -1,0 +1,13 @@
+
+:root{
+    $typeface:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    $background-image: url(../img/content-background.png);
+    $primary-color: #5894DB;
+    $radius:10px;
+    $margin:20px;
+}
+
+body{
+    background-image: $background-image;
+    font-family: $typeface;
+}

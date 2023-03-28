@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Niramit", sans-serif;
+}
+
+section {
+  max-width: 80vw;
+  display: flex;
+  margin: 20px auto;
+  background: #ccc;
+  border-radius: 10px;
+}
+section article {
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  padding: 1em;
+  flex-grow: 1;
+}
+section article.post {
+  border: 1px solid #1a1a1a;
+}/*# sourceMappingURL=style.css.map */
