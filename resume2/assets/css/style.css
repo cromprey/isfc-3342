@@ -341,7 +341,7 @@ dd{
   }
   
   .panel#one-panel{
-    display: grid;
+    display: none;
     grid-template-columns: 400px 400px;
     grid-template-areas:
     "title title"
