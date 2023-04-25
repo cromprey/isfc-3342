@@ -1,19 +1,19 @@
-body{
+* {
   margin: 0;
   padding: 0;
 }
 
+/* -----Navigtion CSS----*/
+
 .background{
   background-color: #FDFDFF;
   font-family: 'Arlita', sans-serif;
-  position: absoulte;
 }
 
 .custom{
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: none;
   color: black;
-  padding-right: 40px;
 }
 
 .reverse{
@@ -24,17 +24,42 @@ body{
 }
 
 .banner{
-  background-image: url(../img/placeholder.png);
+  position: relative;
+  background-image: url(../img/black-background.jpg);
   background-size: cover;
   background-position:center;
-  height: 400px;
-  border-radius: 0 0 50% 50%;
+  height: 500px;
 }
 
 .banner-text{
+  color: white;
   text-align: center;
   padding-top: 180px;
   font-family: 'AOK Buenos Aires', sans-serif;
 }
 
 /*---- header waves ---*/
+
+.custom-shape-divider-bottom-1682437795 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682437795 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 116px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1682437795 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/*-----Home Page-----*/
