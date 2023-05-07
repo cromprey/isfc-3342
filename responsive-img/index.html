@@ -2,22 +2,31 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title>Responsive Imagery Demo</title>
+<meta name="description" content="April 11 Demo, Working with responsive imagery and breakpoints.">
+<meta name="author" content="Caitlin Romprey">
+<link rel="shortcut icon" href="/favicon.ico">
 <link rel="stylesheet" href="assets/css/style.css">
-<meta name="description" content="April 11 Demo, Working with responsive imagery and breakpoints."/>
-<meta name="author" content="Caitlin Romprey" />
-<link rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body>
-
-    <div class="photo-gallery">
-        <div class="image-1">
-        </div>
-        <div class="image-2">
-
-        </div>
+    <div class="words">
+    <p>I am fairly sure that this is working the way that I want it to, however I may be struggling to see. I
+        rewatched the lecture to make sure and I read the articles but for some reason Github isn't linking the pathway that
+        it normally does and it is throwing me off. I also validated it and it said nothing was wrong so I am crossing my fingers that
+        I learned this correctly.
+    </p>
     </div>
+    <img
+        sizes="(min-width: 480px) 480w,
+               (min-width: 600px) 600w,
+               (min-width: 800px) 800px,
+               (min-width: 1000px) 1000px"
+            srcset="assets/img/zoo-me-480.png 480w,
+                assets/img/zoo-me-600.png 600w,
+                assets/img/zoo-me-800.png 800w,
+                assets/img/zoo-me-1000.png 1000w"
+    >
 </body>
 </html>
