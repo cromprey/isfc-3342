@@ -89,7 +89,7 @@ img{
 
 /*-----Home Page-----*/
 
-#home-content, #about-content{
+#home-content, #about-content, #photography-content{
   padding: 50px;
 }
 
@@ -100,7 +100,7 @@ img{
   padding-bottom: 20px;
 }
 
-.home-intro h1, .about-intro h1, .blog-intro h1{
+.home-intro h1, .about-intro h1, .blog-intro h1, .photography-intro h1{
   font-family: 'Neometric Alt', sans-serif;
   font-size: 35pt;
   text-align: center;
@@ -116,15 +116,17 @@ img{
   border-bottom: 1pt solid black;
 }
 
-.home-intro, .blog-cards, .about-intro, .blog-intro{
+.home-intro, .blog-cards, .about-intro, .blog-intro, .photography-intro{
   margin: 40px 0;
   padding: 20px;
 }
 
 .home-intro p{
-  font-size: 17pt;
+    margin: 15px 30px;
+    font-size: 17pt;
+    padding: 10px 10px;
+    text-align: center;
 }
-
 
 .home-body{
   padding: 20px;
@@ -216,4 +218,11 @@ img{
 
 .photo-gallery{
   padding: 20px;
+}
+
+.photography-intro p{
+  margin: 15px 30px;
+  font-size: 17pt;
+  padding: 10px 10px;
+  text-align: center;
 }
