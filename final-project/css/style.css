@@ -18,7 +18,6 @@ img{
   font-family: 'Arlita', sans-serif;
 }
 
-
 .custom{
   font-size: 40px;
   text-decoration: none;
@@ -40,9 +39,18 @@ img{
   height: 500px;
 }
 
-.home-img{
+#home-img{
   background-image: url(../img/background3.JPG);
 }
+
+#about-img{
+  background-image: url(../img/about-me.jpg);
+}
+
+#blog-img{
+  background-image: url(../img/blog-banner.JPG);
+}
+
 
 .banner-text{
   color: white;
@@ -77,11 +85,11 @@ img{
 
 /*-----Home Page-----*/
 
-#home-content{
+#home-content, #about-content, #blog-content{
   padding: 50px;
 }
 
-.home-intro h1{
+.home-intro h1, .about-intro h1, .blog-intro h1{
   font-family: 'Neometric Alt', sans-serif;
   font-size: 35pt;
   text-align: center;
@@ -97,21 +105,19 @@ img{
   border-bottom: 1pt solid black;
 }
 
-.home-intro, .blog-cards{
+.home-intro, .blog-cards, .about-intro, .blog-intro{
   margin: 40px 0;
   padding: 20px;
 }
-
-
 
 .home-intro p{
   font-size: 17pt;
 }
 
+
 .home-body{
   padding: 20px;
 }
-
 
 /*card wrapper*/
 #blog-card-wrapper{
@@ -144,6 +150,15 @@ img{
   background-color: #FFD7BA; 
 }
 
+/*--ABOUT--*/
+
+.about-intro p{
+  margin: 15px 30px;
+  font-size: 17pt;
+  padding: 10px 10px;
+  text-align: center;
+}
+
 /*---BLOG---*/
 
 .blog-wrapper{
@@ -152,6 +167,13 @@ img{
   justify-content: space-between;
   gap: 20px;
   padding: 20px;
+}
+
+.blog-intro p{
+  margin: 15px 30px;
+  font-size: 17pt;
+  padding: 10px 10px;
+  text-align: center;
 }
 
 /*---PHOTOGRAPHY PAGE----*/
