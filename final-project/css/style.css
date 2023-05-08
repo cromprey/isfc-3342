@@ -85,8 +85,15 @@ img{
 
 /*-----Home Page-----*/
 
-#home-content, #about-content, #blog-content{
+#home-content, #about-content{
   padding: 50px;
+}
+
+#blog-content{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
 }
 
 .home-intro h1, .about-intro h1, .blog-intro h1{
@@ -161,6 +168,19 @@ img{
 
 /*---BLOG---*/
 
+.blog-container{
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-wrapper{
+  border: 1pt solid black;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
 .blog-wrapper{
   display: flex;
   flex-direction: row;
@@ -174,6 +194,11 @@ img{
   font-size: 17pt;
   padding: 10px 10px;
   text-align: center;
+}
+
+.btn-text{
+  font-family: 'Neometric Alt', sans-serif;
+  font-size: 15pt !important;
 }
 
 /*---PHOTOGRAPHY PAGE----*/
