@@ -201,7 +201,14 @@ img{
   font-size: 15pt !important;
 }
 
+.bg-orange{
+  background-color: #f8edeb!important;
+  color: #000000 !important;
+  border: 1pt solid black;
+}
+
 /*---PHOTOGRAPHY PAGE----*/
+
 
 .photo-gallery{
   padding: 20px;
