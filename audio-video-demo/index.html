@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML5 Video and Audio Assignment</title>
+        <meta name="author" content="Caitlin Romprey">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Audio and Video Demo, April 13th-2023">
+    </head>
+    <body>
+        <h1>Coded Video Implementation</h1>
+        <video poster="assets/video/hudson-shelter-falls.mp4" width="640" height="360" controls>
+            <source width="640" height="360" src="assets/video/hudson-shelter-falls.mp4" type="video/mp4">
+            <source width="640" height="360" src="assets/video/hudson-shelter-falls.ogv" type="video/ogg">
+            <source width="640" height="360" src="assets/video/hudson-shelter-falls.webm" type="video/webm">
+        </video>
+
+        <h1>VideoJS - Video Implementation</h1>
+            <video id="my-video" class="video-js" controls preload="auto" width="640"height="264" poster="assets/img/hudson-shelter-falls-poster.jpg" data-setup="{}">
+                <source src="assets/video/hudson-shelter-falls.mp4" type="video/mp4" />
+                <source src="assets/video/hudson-shelter-falls.webm" type="video/webm" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        <h1>Audio Implementation - Thunder</h1>
+            <br>
+        <audio controls="controls">
+            <source src="assets/audio/thunder.ogg" type="audio/ogg"/><!-- Firefox, Opera, Chrome -->
+            <source src="assets/audio/thunder.mp3" type="audio/mp3"/><!-- Safari, Chrome, IE9+ -->
+            <source src="assets/audio/thunder.wav" type="audio/wav"/><!-- Safari, Opera, IE9+, Firefox -->
+            <a href="assets/audio/thunder.mp3">Download the Audio</a>
+        </audio>
+  
+
+</html>

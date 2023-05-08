@@ -70,6 +70,10 @@ main {
   display: none;
 }
 
+#nav span{
+  padding-left: 20px;
+}
+
 #nav{
   width: 100%;
   display: flex;
