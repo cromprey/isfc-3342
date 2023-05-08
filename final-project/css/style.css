@@ -51,6 +51,10 @@ img{
   background-image: url(../img/blog-banner.JPG);
 }
 
+#photography-img{
+  background-image: url(../img/walking-group-night.jpg);
+}
+
 
 .banner-text{
   color: white;
