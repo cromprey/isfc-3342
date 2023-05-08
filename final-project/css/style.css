@@ -7,6 +7,10 @@
   overflow: auto;
 }
 
+img{
+  width: auto;
+}
+
 /* -----Navigtion CSS----*/
 
 .background{
@@ -77,15 +81,31 @@
   padding: 50px;
 }
 
-.home-intro h1, .home-body h1{
-  font-family: 'Arlita', sans-serif;
+.home-intro h1{
+  font-family: 'Neometric Alt', sans-serif;
+  font-size: 35pt;
   text-align: center;
-
+  padding-bottom: 5px;
+  border-bottom: 1pt solid black;
 }
 
-.home-intro{
+.blog-cards h1{
+  font-family: 'Neometric Alt', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1pt solid black;
+}
+
+.home-intro, .blog-cards{
   margin: 40px 0;
   padding: 20px;
+}
+
+
+
+.home-intro p{
+  font-size: 17pt;
 }
 
 .home-body{
@@ -107,6 +127,11 @@
   border: none !important;
   color: black !important;
   text-align: right !important;
+}
+
+.card{
+  height: 700px;
+  width: 500px;
 }
 
 .card-body{
