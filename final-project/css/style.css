@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* -----Navigtion CSS----*/
+
+.background{
+  background-color: #FDFDFF;
+  font-family: 'Arlita', sans-serif;
+}
+
+
+.custom{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.reverse{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+
+.banner{
+  position: relative;
+  background-size: cover;
+  background-position:center;
+  height: 500px;
+}
+
+.home-img{
+  background-image: url(../img/background3.JPG);
+}
+
+.banner-text{
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+  font-family: 'AOK Buenos Aires', sans-serif;
+}
+
+/*---- header waves ---*/
+
+.custom-shape-divider-bottom-1682437795 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682437795 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 116px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1682437795 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/*-----Home Page-----*/
+
+#home-content{
+  padding: 50px;
+}
+
+.home-intro h1, .home-body h1{
+  font-family: 'Arlita', sans-serif;
+  text-align: center;
+
+}
+
+.home-intro{
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.home-body{
+  padding: 20px;
+}
+
+
+/*card wrapper*/
+#blog-card-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.btn, .btn-primary{
+  background-color: #FCD5CE !important;
+  border: none !important;
+  color: black !important;
+  text-align: right !important;
+}
+
+.card-body{
+  max-width: 500px;
+}
+
+
+.contact{
+  padding: 0 40px;
+  background-color: #FFD7BA; 
+}
+
+/*---BLOG---*/
+
+.blog-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+/*---PHOTOGRAPHY PAGE----*/
+
+.photo-gallery{
+  padding: 20px;
+}
