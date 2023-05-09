@@ -262,8 +262,16 @@ img{
 
   /*--blog page--*/
 
-  .blog-intro{
+  .blog-intro, .about-intro{
     margin: 0px;
+  }
+
+  .blog-intro , .about-intro p{
+    margin: 15px 20px;
+  }
+
+  #blog-content, #about-content{
+    padding: 20px;
   }
 
   .blog-container{
