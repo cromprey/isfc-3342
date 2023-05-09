@@ -243,7 +243,6 @@ img{
   #blog-card-wrapper{
     min-height: 100%;
     padding: 15px;
-    background: red;
     justify-content: center;
     display: grid;
     grid-template-rows: 30% 30% 30%;
@@ -277,7 +276,6 @@ img{
 
   #blog-card-wrapper{
     min-height: 100%;
-    background: yellow;
     display: grid;
     grid-template-columns: 49% 49%;
     padding: 20px;
@@ -292,7 +290,7 @@ img{
 
   .card{
     height: 100%;
-    width: 100%;
+    max-width: 500px;
   }
 
 }
