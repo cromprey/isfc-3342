@@ -68,7 +68,6 @@ img{
   background-image: url(../img/walking-group-night.jpg);
 }
 
-
 .banner-text{
   color: white;
   text-align: center;
@@ -102,16 +101,10 @@ img{
 
 /*-----Home Page-----*/
 
-#home-content, #about-content, #photography-content{
+#home-content, #about-content, #blog-content, #photography-content{
   padding: 50px;
 }
 
-#blog-content{
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-}
 
 .home-intro h1, .about-intro h1, .blog-intro h1, .photography-intro h1{
   font-family: 'Neometric Alt', sans-serif;
@@ -137,7 +130,6 @@ img{
 .home-intro p{
     margin: 15px 30px;
     font-size: 17pt;
-    padding: 10px 10px;
     text-align: center;
 }
 
@@ -275,11 +267,11 @@ img{
 
   /*--blog page--*/
 
-  .blog-intro, .about-intro{
+  .blog-intro, .about-intro, .home-intro{
     margin: 0px;
   }
 
-  .blog-intro , .about-intro p{
+  .blog-intro p, .about-intro p, .home-intro p{
     margin: 15px 20px;
   }
 
