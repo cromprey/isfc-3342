@@ -214,6 +214,11 @@ img{
   border: 1pt solid black;
 }
 
+.thumbnail img{
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
 /*---PHOTOGRAPHY PAGE----*/
 
 
