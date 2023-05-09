@@ -146,6 +146,7 @@ img{
   border: none !important;
   color: black !important;
   text-align: right !important;
+  scroll-behavior: smooth;
 }
 
 .card{
